@@ -18,7 +18,7 @@ Apenas cerca de 2% a 3% da população total do Brasil investe diretamente em a�
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-Um agente educativo que explica conceitos financeiros de forma simples, usando os dados e estaticas com linguagem simples para que os usuarios nao sintam medo em investir em acoes.
+Um agente educativo que explica conceitos financeiros de forma simples, usando os dados e estatisticas com linguagem simples para que os usuarios nao sintam medo em investir em acoes.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
