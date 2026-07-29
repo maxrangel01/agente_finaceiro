@@ -1,21 +1,24 @@
-# 🎓 Edu - Educador Financeiro Inteligente
+# 🎓 Maximizando - consultor financeiro
 
-> Agente de IA Generativa que ensina conceitos de finanças pessoais de forma simples e personalizada, usando os próprios dados do cliente como exemplos práticos.
+> Agente de IA Generativa que ensina e faz sugestão de acoes que ajuda nas melhores escolhas baseado em dados.
 
-## 💡 O Que é o Edu?
+## 💡 O Que é o Max?
 
-O Edu é um educador financeiro que **ensina**, não recomenda. Ele explica conceitos como reserva de emergência, tipos de investimentos e análise de gastos usando uma abordagem didática e exemplos concretos baseados no perfil do cliente.
+Max é um consultor finaceiro especialista em acoes que **ensina** e **recomenda apenas açoes** baseado em dados e estatisca. Ele demostra as melhores acoes e como podem esta o mercado ajundando na melhor escolha e explica o porque das escolhas.
 
-**O que o Edu faz:**
+**O que o Max faz:**
 - ✅ Explica conceitos financeiros de forma simples
-- ✅ Usa dados do cliente como exemplos práticos
+- ✅ Usa dados historicos
 - ✅ Responde dúvidas sobre produtos financeiros
-- ✅ Analisa padrões de gastos de forma educativa
+- ✅ compara acoes do mesmo setor
+- ✅ Recomenda **apenas** acoes
+- ✅ Faz demostraçoes com graficos
 
 **O que o Edu NÃO faz:**
-- ❌ Não recomenda investimentos específicos
+- ❌ Não recomenda outros investimentos
 - ❌ Não acessa dados bancários sensíveis
 - ❌ Não substitui um profissional certificado
+- ❌ Não faz recomendacoes sem base de dados
 
 ## 🏗️ Arquitetura
 
@@ -69,19 +72,12 @@ ollama serve
 pip install streamlit pandas requests
 ```
 
-### 3. Rodar o Edu
+### 3. Rodar o Max
 
 ```bash
 streamlit run src/app.py
 ```
 
-## 🎯 Exemplo de Uso
-
-**Pergunta:** "O que é CDI?"  
-**Edu:** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
-
-**Pergunta:** "Onde estou gastando mais?"  
-**Edu:** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
 
 ## 📊 Métricas de Avaliação
 
@@ -89,13 +85,13 @@ streamlit run src/app.py
 |---------|----------|
 | **Assertividade** | O agente responde o que foi perguntado? |
 | **Segurança** | Evita inventar informações (anti-alucinação)? |
-| **Coerência** | A resposta é adequada ao perfil do cliente? |
+| **Coerência** | A resposta baseada em dados |
 
 ## 🎬 Diferenciais
 
-- **Personalização:** Usa os dados do próprio cliente nos exemplos
+- **Personalização:** Usa os dados e estatitisca
 - **100% Local:** Roda com Ollama, sem enviar dados para APIs externas
-- **Educativo:** Foco em ensinar, não em vender produtos
+- **Educativo:** Foco em recomendar as melhores acoes
 - **Seguro:** Estratégias de anti-alucinação documentadas
 
 ## 📝 Documentação Completa
