@@ -46,7 +46,12 @@ print(df.head())
 data_1 = input('data inicial')
 data_2 =input('data final')
 acao = inpunt('digite uma acao')
-df_acao = yf.download(tickers=self.acao, start=data_1,end=data_2,interval='1d') 
+df_acao = yf.download(tickers=self.acao, start=data_1,end=data_2,interval='1d')
+
+info = acacao_info = acao.info
+print("P/L:", acao_info.get("trailingPE"))
+print("ROE:", acao_info.get("returnOnEquity"))
+print("Dividend Yield:", acao_info.get("dividendYield"))
 
 ```
 
@@ -54,6 +59,13 @@ df_acao = yf.download(tickers=self.acao, start=data_1,end=data_2,interval='1d')
 > Os dados vão no system prompt? São consultados dinamicamente?
 
 Os dados serao baixaidos atraves do **df_acao = yf.download(tickers=self.acao, start=data_1,end=data_2,interval='1d')** em formato CSV, atraves dos dados baixados inicia as analises e tratamentos dos dados. Apos a limpeza começa a analise utilizando a biblioteca do **sklearn**, caso necessario aprensenta graficos.
+
+A análise fundamentalista de ações avalia o valor real de uma empresa por meio de seus indicadores financeiros, balanços e dados econômicos, focando em P/L, ROE e Dividend Yield.
+
+Principais IndicadoresP/L (Preço sobre Lucro): Mostra o tempo de retorno do investimento.
+P/VP (Preço sobre Valor Patrimonial): Compara o preço da ação com o patrimônio da empresa.
+ROE (Retorno sobre o Patrimônio): Mede a eficiência no ganho de lucro.
+Dividend Yield: Aponta o rendimento em dividendos pagos ao acionista.
 
 
 
