@@ -15,6 +15,8 @@
 
 Apenas cerca de 2% a 3% da população total do Brasil investe diretamente em ações na bolsa de valores, o que equivale a pouco mais de 5 milhões de CPFs cadastrados na B3
 
+A análise fundamentalista de ações avalia o valor real de uma empresa por meio de seus indicadores financeiros, balanços e dados econômicos, focando em P/L, ROE e Dividend Yield
+
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
