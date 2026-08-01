@@ -1,12 +1,6 @@
 # Base de Conhecimento
 
-```python
-import pandas as pd
-import yfinance as yf
-from datetime import date, timedelta
-import matplotlib.pyplot as plt
-import sklearn
-'''
+
 
 > [!TIP]
 > **Prompt usado para esta etapa:**
@@ -19,11 +13,20 @@ import sklearn
 
 | `acao.csv` | CSV | sera baixado atraves do **yfinance** . |
 
+sites para buscas:
+https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/cotacoes/
+https://statusinvest.com.br/acoes
+https://investidor10.com.br/
+https://br.investing.com/
+https://www.fundamentus.com.br/
+https://www.moneytimes.com.br/
+https://www.infomoney.com.br/
+
 ## Adaptações nos Dados
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-caso não encontrado o pode fazer uma varredura na rede e procurar sobre a acao necessaria
+caso não encontrado fazer uma varredura na **web** e procurar sobre a acao necessaria
 
 ---
 
