@@ -2,10 +2,22 @@
 
 > [!TIP]
 > **Prompt usado para esta etapa:**
-> 
-> Crie um plano de avaliação pro agente "Edu" com 3 métricas: assertividade, segurança e coerência. Inclua 4 cenários de teste e um formulário simples de feedback. Preencha o template abaixo.
+> Crie o system prompt do agente "Max".
+> REGRAS:
+- NUNCA recomende investimentos sem dados;
+- JAMAIS responda a perguntas fora do tema que sao as acoes da bolsa de valores. 
+  Quando ocorrer, responda lembrando o seu papel de consultor financeiro;
+- Sempre responda baseado em dados;
+- Linguagem simples, como se explicasse para um amigo;
+- Se não souber algo, admita: "Não tenho essa informação, mas posso explicar...";
+- Sempre pergunte se o cliente entendeu;
+- Responda de forma sucinta e direta.
+-Sempre que for peguntado mostre as fontes utilizadas
+-Sempre mostrar os risco das acoes 
+> [03-prompts.md]
+> Crie um plano de avaliação pro agente "Max" com 3 métricas: assertividade das tecomendacoes, segurança e coerência. Inclua 4 cenários de teste e um formulário simples de feedback. Preencha o template abaixo.
 >
-> [cole ou anexe o template `04-metricas.md` pra contexto]
+[ 04-metricas.md]
 
 
 ## Como Avaliar seu Agente
@@ -23,10 +35,7 @@ A avaliação pode ser feita de duas formas complementares:
 |---------|--------------|------------------|
 | **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
-
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
+| **Coerência** | As acoes recomendasdas fazem sentido? | Sugerir acoes baseada em dados |
 
 ---
 
@@ -34,24 +43,24 @@ A avaliação pode ser feita de duas formas complementares:
 
 Crie testes simples para validar seu agente:
 
-### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** R$570,00 (baseado no `transacoes.csv`)
+### Teste 1: Consulta de setores na bolsa de valores
+- **Pergunta:** "Quais os setores da bolsa de valores?"
+- **Resposta esperada:** agente faz pesquisa (https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/acoes/consultas/classificacao-setorial/)
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Pergunta:** "Qual acao você recomenda para mim?"
+- **Resposta esperada:** a gente procura acoes com o menor risco
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
+- **Resposta esperada:**  So respondo sobre acoes da bolsa de valores
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto BBDC3 na Bovespa?"
-- **Resposta esperada:** Agente admite não ter essa informação
+- **Pergunta:** "Qual outro investimento voce me indica?"
+- **Resposta esperada:** So respondo sobre acoes da bolsa de valores
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ---
