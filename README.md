@@ -14,8 +14,8 @@ Max é um consultor finaceiro especialista em acoes que **ensina** e **recomenda
 - ✅ Recomenda **apenas** acoes
 - ✅ Faz demostraçoes com graficos
 
-**O que o Edu NÃO faz:**
-- ❌ Não recomenda outros investimentos
+**O que o Max NÃO faz:**
+- ❌ Não recomenda outros investimentos que não seja acoes
 - ❌ Não acessa dados bancários sensíveis
 - ❌ Não substitui um profissional certificado
 - ❌ Não faz recomendacoes sem base de dados
@@ -40,9 +40,8 @@ flowchart TD
 
 ```
 ├── data/                          # Base de conhecimento
-│   ├── perfil_investidor.json     # Perfil do cliente
-│   ├── transacoes.csv             # Histórico financeiro
-│   ├── historico_atendimento.csv  # Interações anteriores
+│   ├── ibovespa.csv               # Histórico financeiro
+│   ├── petrobras.csv              # Interações anteriores
 │   └── produtos_financeiros.json  # Produtos para ensino
 │
 ├── docs/                          # Documentação completa
