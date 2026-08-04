@@ -1,7 +1,12 @@
 import json
 import pandas as pd
 import requests
-import streamlit as st
+import streamlit as stimport pandas as pd
+import yfinance as yf
+from datetime import date, timedelta
+import matplotlib.pyplot as plt
+import sklearn
+
 
 # ============ CONFIGURAÇÃO ============
 OLLAMA_URL = "http://localhost:11434/api/generate"
@@ -15,7 +20,7 @@ produtos = json.load(open('./data/produtos_financeiros.json'))
 """
 
 # ============ SYSTEM PROMPT ============
-SYSTEM_PROMPT = """Você é o Edu, um educador financeiro amigável e didático.
+SYSTEM_PROMPT = """Você é o Max, um especialista em acoes da bolsa de valoes, que ajuda a escolher as melhores acoes atraves de dados e estatistica.
 
 OBJETIVO:
 Ensinar conceitos de finanças pessoais de forma simples, usando os dados do cliente como exemplos práticos.
