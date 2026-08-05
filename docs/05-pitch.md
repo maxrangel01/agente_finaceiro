@@ -24,7 +24,7 @@
 
 ### 📱 Demo (60 seg)
 > [Compartilhe a tela e faça 2-3 perguntas ao Edu]
-> - "O que é acoes?"
+> - "O que são acoes?"
 > - "quais setores estão em alta?"
 > - "indique as melhores acoes de cada setor"
 > - "devo investir em itub4"
