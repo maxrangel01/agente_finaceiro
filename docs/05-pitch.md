@@ -14,7 +14,7 @@
 
 ---
  
-## Roteiro do Edu
+## Roteiro do Max
 
 ### 🎯 Problema (30 seg)
 > "Apenas cerca de 2% a 3% da população total do Brasil investe diretamente em ações na bolsa de valores, o que equivale a pouco mais de 5 milhões de CPFs cadastrados na B3"
