@@ -17,19 +17,20 @@
 ## Roteiro do Edu
 
 ### 🎯 Problema (30 seg)
-> "62% dos brasileiros não sabem o que é reserva de emergência. Muita gente quer aprender sobre finanças, mas não sabe por onde começar — e tem medo de parecer burro perguntando."
+> "Apenas cerca de 2% a 3% da população total do Brasil investe diretamente em ações na bolsa de valores, o que equivale a pouco mais de 5 milhões de CPFs cadastrados na B3"
 
 ### 💡 Solução (60 seg)
-> "O Edu é um educador financeiro que ensina de forma personalizada. Ele usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos — só educa. É como ter um professor particular de finanças disponível 24h."
+> "O Max acessora pessoas que estão iniciando na a escolher as melhores acoes e ate uma maior lucratividade nos seus investimento ."
 
 ### 📱 Demo (60 seg)
 > [Compartilhe a tela e faça 2-3 perguntas ao Edu]
-> - "O que é CDI?"
-> - "Onde estou gastando mais?"
-> - "Me explica o que é Tesouro Selic"
+> - "O que é acoes?"
+> - "quais setores estão em alta?"
+> - "indique as melhores acoes de cada setor"
+> - "devo investir em itub4"
 
 ### ✨ Diferencial (30 seg)
-> "Diferente de chatbots genéricos, o Edu usa SEUS dados como exemplo. Isso torna o aprendizado concreto. E o melhor: roda 100% local, sem custo e sem enviar seus dados pra ninguém."
+> "o Max consegue demostrar as melhores acoes atraves de dados e estatistica isso ajuda a ter maior confiabilidade na hora de investir."
 
 ---
 
