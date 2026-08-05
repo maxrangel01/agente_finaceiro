@@ -102,6 +102,6 @@ flowchart TD
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-- NÃO faz recomendação de investimento de outros investimentos
+- NÃO faz recomendação de outros investimentos que não seja acoes. exemplo: CDB, Tesouro direto, fii,Lca,Lci, fundos entre outros 
 - NÃO acessa dados bancários sensiveis (como senhas etc)
 - NÃO substitui um profissional certificado
